@@ -77,16 +77,16 @@ let scale (intervals : Interval list) (tonic : note) =
 let noteFromString =
     function 
     | "C" -> Some C
-    | "Db" -> Some Db
+    | "C#" | "Db" -> Some Db
     | "D" -> Some D
-    | "Eb" -> Some Eb
+    | "D#" | "Eb" -> Some Eb
     | "E" -> Some E
     | "F" -> Some F
-    | "Gb" -> Some Gb
+    | "F#" | "Gb" -> Some Gb
     | "G" -> Some G
-    | "Ab" -> Some Ab
+    | "G#" | "Ab" -> Some Ab
     | "A" -> Some A
-    | "Bb" -> Some Bb
+    | "A#" | "Bb" -> Some Bb
     | "B" -> Some B
     | _ -> None
 
