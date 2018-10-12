@@ -1,0 +1,2 @@
+# Fusic
+🎵 Music with F#
