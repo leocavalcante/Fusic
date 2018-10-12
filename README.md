@@ -10,3 +10,7 @@ dotnet run -- "F#"
 Scale: [I Gb; II Ab; III Bb; IV B; V Db; VI Eb; VII F; I Gb]
 Chord: [Gb; Bb; Db]
 ```
+
+## Todo
+* [ ] Minor scale
+* [ ] Play sounds with `System.Media`
